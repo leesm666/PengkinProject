@@ -4,6 +4,26 @@
 가스 센서 : https://github.com/leesm666/Arduino_Gas_Sensor \
 객체 감지 : https://github.com/leesm666/RcCar_following_manual 
 
+# 개발 환경 및 기술 스택
+**S/W 개발환경** \
+-Android Studio (1.2.2)를 사용하여 Android application 프로그램 개발(Java 언어 사용) \
+-Firebase를 활용한 Realtime database 구현 \
+-Android OS(5.0.1) 스마트폰 운영체제 기반 
+
+**감정인식 및 대화 시스템** \
+-Python을 사용하여 대화 내용(일상 대화, 스트레칭 가이드) 및 감정인식을 위한 코드 제작 \
+-Mediapipe를 활용한 자세감지 및 자세 유지 시간 측정을 위한 라이브러리 구현 \
+-Putty를 통한 클라우드 서버 원격 접속 툴 활용
+
+**H/W 구성장비** \
+**디바이스** \
+스마트폰(안드로이드): 사용자에게 서비스를 직접적으로 제공하는 End Device \
+DC 모터: 전진 및 후진을 위한 구동부를 구성\
+**센서** \
+MQ-135: 가스감지를 위한 센서\
+**보드** \
+아두이노, 라즈베리파이: 센서 및 부품의 연결 및 명령 수행을 처리하기 위한 기판
+
 # PengkinProject ppt
 ![슬라이드1](https://github.com/user-attachments/assets/652e49d3-0347-486f-83d9-45ee3a179cae)
 ![슬라이드3](https://github.com/user-attachments/assets/9156fc04-8288-46c1-adc1-1797fb55457c)
